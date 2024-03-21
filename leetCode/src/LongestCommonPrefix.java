@@ -1,6 +1,4 @@
 /**
- * @author arashxr
- * @email ariuschamreun15@gmail.com
  * @github <a href="https://github.com/Arius-Chamreun">Github Url</a>
  */
 

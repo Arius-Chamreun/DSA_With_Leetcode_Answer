@@ -1,3 +1,7 @@
+/**
+ * @github <a href="https://github.com/Arius-Chamreun">Github Url</a>
+ */
+
 public class TwoSum {
     public int[] isTwoSum(int[] num, int target) {
 
@@ -7,7 +11,6 @@ public class TwoSum {
                 if (num[i] + num[j] == target) {
                     return new int[]{i, j};
                 }
-
             }
         }
         

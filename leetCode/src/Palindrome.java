@@ -1,3 +1,7 @@
+/**
+ * @github <a href="https://github.com/Arius-Chamreun">Github Url</a>
+ */
+
 public class Palindrome {
     public static boolean isPalindrome(String s) {
         s = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase().trim();

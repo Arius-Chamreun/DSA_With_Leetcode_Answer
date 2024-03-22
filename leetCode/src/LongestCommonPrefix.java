@@ -1,10 +1,11 @@
 /**
  * @github <a href="https://github.com/Arius-Chamreun">Github Url</a>
  */
-
+//Runtime 1 ms beats 37.73% of users with java
+//Memory 41.30 MB beats 76.04% of user with java
 public class LongestCommonPrefix {
 
-    public String commonPrefix(String[] strs){
+    public String longestCommonPrefix(String[] strs){
 
         if(strs == null ||strs.length == 0){
             return "";
@@ -21,6 +22,6 @@ public class LongestCommonPrefix {
             }
         }
         return strs[0].substring(0,max);
-}
+    }
 }
 

@@ -1,7 +1,8 @@
 /**
  * @github <a href="https://github.com/Arius-Chamreun">Github Url</a>
  */
-
+//Runtime 44 ms beats 40.75% of users with java
+//Memory 45.02 MB beats 17.65% of users with java
 public class TwoSum {
     public int[] isTwoSum(int[] num, int target) {
 
@@ -13,7 +14,6 @@ public class TwoSum {
                 }
             }
         }
-        
         return new int[0];
 
     }

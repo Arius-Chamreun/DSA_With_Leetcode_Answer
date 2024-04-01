@@ -4,7 +4,7 @@
 //Runtime 2 ms beats 100% of users with java
 //Memory 44.50 MB beats 80.96% of users with java
 
-public class RomanToSum {
+public class RomanToInteger {
    public int romanToInt(String s) {
         int value = 0;
         for(int i= 0 ; i < s.length()  ; i++){
